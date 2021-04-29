@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for transaction-service" enabled="true">
+        <sourceOutputDir name="../../cqrs-quarkus-eks-master/transaction-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cqrs-quarkus-eks-master/transaction-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transaction-service" />
+      </profile>
+      <profile name="Annotation profile for balance-service" enabled="true">
+        <sourceOutputDir name="../../cqrs-quarkus-eks-master/balance-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cqrs-quarkus-eks-master/balance-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="balance-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="balance-service" target="11" />
+      <module name="transaction-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
